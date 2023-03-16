@@ -86,14 +86,14 @@ def search_clients(search_string):
     return c.fetchall()
 
 
-# create_table()
-#
-# add_client("Иоганн", "Бах", "jsbach@kunst.de")
-# add_client("Вольфганг", "Моцарт", "wamozart@kunst.at")
-#
-# add_phone(1, "+49-150-2518590")
-# add_phone(1, "+49-171-4241223")
-# add_phone(2, "+49-151-4445343")
+create_table()
+
+add_client("Иоганн", "Бах", "jsbach@kunst.de")
+add_client("Вольфганг", "Моцарт", "wamozart@kunst.at")
+
+add_phone(1, "+49-150-2518590")
+add_phone(1, "+49-171-4241223")
+add_phone(2, "+49-151-4445343")
 
 # update_client(1, first_name="Василий")
 # update_client(2, email="salieri@kunst.at")
